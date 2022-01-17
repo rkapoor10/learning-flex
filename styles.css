@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-    width: 700px;
+   
     height: 700px;
     padding: 1rem;
     margin: 10px;
@@ -42,6 +42,10 @@ body{
     /* align-items: stretch; */ /*?????????*/
 
 
+
+    
+
+
      
 
 }
@@ -52,18 +56,24 @@ body{
     margin: 10px;
     box-shadow: 0 0 10px gray;
     background-color: skyblue;
-
+    /* flex-grow: 4; */
 }
 
 /* .three{
     height: 200px;
 } */
 
-.two{
+/* .two{
     height: 200px;
     /* align-self: flex-end; */
     /* align-self: center; */
     /* align-self: baseline; */ /*?????????*/
     /* align-self: stretch; */ /*?????????*/
-    align-self: auto;
+    /* align-self: auto; */  /*?????????*/
+/* } */
+
+.one{
+    /* flex-grow: 4; */
+    flex-basis: 400;
 }
+
